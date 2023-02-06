@@ -1,0 +1,121 @@
+body {
+    background: black !important;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* Styling Login Form */
+.login-form {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 20px;
+    border-image:
+        linear-gradient(to bottom,
+            red,
+            rgba(0, 0, 0, 0)) 1 100%;
+}
+
+
+/* Styling Heading  */
+.form-head {
+    background: #121FCF;
+    font-size: 2rem;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Adding bg color to Form Control */
+.form-control {
+    background: linear-gradient(to right, #131313 0%, #242020 100%);
+
+}
+
+
+/* Styling inner color of inputs */
+input,
+textarea {
+    color: #eff0ff !important;
+    background-color: #242020 !important;
+}
+
+/* Styling Labels of forms */
+
+label {
+    background: #292929;
+    background: linear-gradient(to right, #a2a4b8 0%, #6d5e5e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+/* Adding Styling to buttons */
+.submit-btn {
+    background-color: #131313;
+    background: linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold !important;
+    border-color: #929292 !important;
+    border: 2px solid;
+}
+
+/* Fixing Hover */
+.submit-btn:hover {
+    color: #121FCF;
+    background-color: #fff6f6;
+}
+
+
+/* Fixing Input's Background color  */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #242020 inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #242020 inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #242020 inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+textarea:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 1000px #242020 inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+/* Fixing end */
+
+/* Confirmation Styling Starts here */
+
+.confirm {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    box-shadow: #131313;
+}
+
+.card-body {
+    background-color: #070707;
+    color: #fff6f6 !important;
+}
